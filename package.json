@@ -1,0 +1,19 @@
+{
+  "name": "is-react-component",
+  "description": "A more reliable test of whether a function or constructor is a React Component",
+  "version": "1.0.0",
+  "main": "dist.js",
+  "license": "MIT",
+  "types": "types.d.ts",
+  "dependencies": {
+    "cherow": "^1.6.9"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "scripts": {
+    "build": "babel index.js --out-file dist.js --presets=@babel/preset-env,@babel/preset-react"
+  }
+}
